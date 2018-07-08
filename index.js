@@ -30,3 +30,10 @@ function removeFromCart(item) {
 function placeOrder(cardNumber) {
   // write your code here
 }
+
+function generateCartItem(itemName) {
+  return {
+    itemName:itemName,
+    itemPrice:getRandomInt(1, 100)
+  }
+}
