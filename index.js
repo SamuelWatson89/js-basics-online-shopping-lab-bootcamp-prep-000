@@ -11,6 +11,7 @@ function setCart(c) {
 
 function addToCart(item) {
  var item = generateCartItem(item)
+ get cart
 }
 
 function viewCart() {
